@@ -75,7 +75,3 @@ The model outputs a plot comparing the actual closing prices against the predict
 
 - Stock prices are inherently noisy and influenced by external factors not captured in OHLCV data alone; this project is intended for educational purposes and not financial advice.
 - A chronological (time-aware) train/test split is used instead of random shuffling, since shuffling time series data can leak future information into training and produce misleadingly optimistic results.
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
