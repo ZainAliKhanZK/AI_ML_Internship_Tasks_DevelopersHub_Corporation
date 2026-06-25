@@ -67,17 +67,13 @@ The model outputs:
 - A feature importance plot highlighting which clinical attributes (e.g., chest pain type, maximum heart rate, cholesterol) most influence predictions
 
 ## 📁 Project Structure
+```
 ├── heart_disease_prediction.ipynb   # Main notebook with EDA, training, and evaluation
-
 ├── README.md                        # Project documentation
-
 └── requirements.txt                  # Python dependencies
+```
 
 ## 📌 Notes
 
 - Since the original target variable can be multiclass, it was binarized (disease vs. no disease) to enable standard binary classification metrics like the ROC curve and AUC.
 - This project is intended for educational purposes and should not be used as a substitute for professional medical diagnosis.
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
