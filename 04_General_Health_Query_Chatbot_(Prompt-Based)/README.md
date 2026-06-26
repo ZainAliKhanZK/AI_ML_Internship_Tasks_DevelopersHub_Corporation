@@ -41,10 +41,15 @@ To build a chatbot that can answer general health-related queries in a friendly,
 ## 📁 Repository Structure
 
 This repository contains three implementations of the chatbot, each demonstrating a different way of interacting with the same underlying LLM logic:
+
 ├── With_Streamlit/      # Chatbot with an interactive Streamlit web UI
+
 ├── With_FastAPI/        # Chatbot exposed as a REST API using FastAPI
+
 ├── basic_chatbot.py/.ipynb   # Core script/notebook version (prompt engineering + safety filters)
+
 ├── README.md            # Project documentation (this file)
+
 └── requirements.txt      # Python dependencies
 
 > 📌 **Note:** `With_Streamlit` and `With_FastAPI` each have their own dedicated README files with setup and usage instructions specific to those implementations. This README covers the core chatbot logic shared across all versions.
